@@ -16,17 +16,16 @@ h1 {
 	text-align: center;
 	font-size: 1.5em;
 	font-weight:normal;
-		line-height: 1.25em;
+	line-height: 1.25em;
 
 }
 
 h2 {
 	text-align: center;
 	/*font-size: 1em;*/
-		font-size: 1em;
-
+	font-size: 1em;
 	font-weight:normal;
-
+	letter-spacing: 1px;
 }
 
 p {
@@ -99,9 +98,9 @@ p {
 @media screen and (min-width: 31px) { /* 1 to 229px */
 
 	.container { width: 95%;  
-			padding: 1em 1em 1em 2em;
-			font-size: 0.5em;
-			line-height: 1em
+			padding: 1em 1em 1em 0.5em;
+			font-size: 0.9em;
+			line-height: 1.2em
 
 	}
 
@@ -115,8 +114,9 @@ p {
 @media screen and (min-width: 320px) { /* 320 to 599px */
 
 	.container { width: 85%; 
-			padding: 1em 1em 1em 2em;
-			font-size: 1em;
+			padding: 1em 1em 1em 1em;
+			font-size: 1.2em;
+			line-height: 1.4em;
 
 
 	}
@@ -128,7 +128,7 @@ p {
 	.container { width: 75%; 
 		padding: 1em 2em 1em 2em;
 		font-size: 1.25em;
-		line-height: 1.25em;
+		line-height: 1.45em;
 
 	}
 
@@ -137,7 +137,7 @@ p {
 @media screen and (min-width: 800px) { /* 800 to 1029px */
 
 	.container { width: 65%; 
-				font-size: 1.5em;
+				font-size: 1.55em;
 
 
 	}
@@ -157,7 +157,7 @@ p {
 @media screen and (min-width: 1200px) { /* 1200 to 1399px - this will be your last query*/
 	
 	.container { width: 50%; 
-		font-size: 1.75em;
+		font-size: 1.85em;
 
 	}
 
